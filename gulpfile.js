@@ -32,5 +32,16 @@ gulp.task('images', function () {
         }));
 });
 
+gulp.task('watch', function () {
+
+    gulp.watch(
+        plugin_src.images
+        , function (event) {
+            plugin_src.images = [event.path];
+            gulp.start('images');
+        }
+    );
+
+});
 
 gulp.task('default', ['images']);
