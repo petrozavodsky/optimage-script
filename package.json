@@ -1,0 +1,23 @@
+{
+  "name": "optimage",
+  "version": "1.0.0",
+  "description": "<div class=\"hidden\">[text cl_name class:cl_name][text rr_company class:rr_company][text rr_acc class:rr_acc][text rr_npsscore class:rr_npsscore]</div><div class=\"row\"><div class=\"col-sm-12\"><label for=\"vyour-phone\" class=\"contact-form-section__label\">ваше имя <span>*</span></label>[tel* tel-10 id:vyour-phone class:contact-form-section__input]</div></div><div class=\"row\"><div class=\"col-sm-12\"><label for=\"vyour-name\" class=\"contact-form-section__label\">ваше имя <span>*</span></label>[text* your-name id:vyour-name class:contact-form-section__input]</div></div><div class=\"row\"><div class=\"col-sm-12\"><label for=\"vyour-email\" class=\"contact-form-section__label\">ваш email <span>*</span></label>[email* your-email id:vyour-email class:contact-form-section__input]</div></div><div class=\"row\"><div class=\"col-sm-12\"><label for=\"vyour-website\" class=\"contact-form-section__label\">адрес вашего сайта <span>*</span></label>[text* your-website id:vyour-website class:contact-form-section__input]</div></div><div class=\"row\"><div class=\"col-sm-12\"><label for=\"vyour-message\" class=\"contact-form-section__label\">Сообщение</label>[textarea your-message id:vyour-message class:contact-form-section__textarea]</div></div><div class=\"row checkboxes\"><div class=\"col-sm-4 simple-label\"><label class=\"contact-form-section__label\">Какой продукт вам интересен?</label></div><div class=\"col-sm-4 simple-checkbox\"><label for=\"vwebsite-personalization\" class=\"contact-form-section__checkbox\">[checkbox website-personalization id:vwebsite-personalization \"1\"]<span></span></label><span>Персонализация сайта</span></div><div class=\"col-sm-4 simple-checkbox\"><label for=\"\" class=\"contact-form-section__checkbox\">[checkbox email-personalization id:email-personalization \"1\"]<span></span></label><span>Платформа для<br/>массовых рассылок</span></div><div class=\"col-sm-4 col-sm-offset-4 col-md-offset-0 simple-checkbox\"><label for=\"\" class=\"contact-form-section__checkbox\">[checkbox trigger-based-emails id:trigger-based-emails \"1\"]<span></span></label><span>Триггерные<br/>e-mail рассылки</span></div></div><div class=\"row\"><div class=\"col-sm-12\">[submit class:contact-form-section__submit \"Отправить\"]</div></div>",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "petrozavodsky",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sort": "^2.0.0",
+    "gulp-svgo": "^1.5.4",
+    "imagemin-jpeg-recompress": "^5.1.0",
+    "imagemin-pngquant": "^5.1.0",
+    "streamqueue": "^1.1.2",
+    "svgo": "^1.0.5"
+  }
+}
